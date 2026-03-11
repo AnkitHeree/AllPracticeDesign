@@ -29,11 +29,20 @@
 .child{
     width: 400px;
     height: 250px;
-    background-color: Yellow;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     border: 1px solid white;
     margin-top: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    
+}
+
+img{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    border: 1px solid white;
 }
